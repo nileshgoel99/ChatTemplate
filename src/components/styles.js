@@ -74,6 +74,40 @@ var styles = StyleSheet.create({
   borderRadius:10,
   justifyContent: 'center',
   alignItems: 'center'
-  }
+},
+navButton: {
+    width: 20,
+    padding: 3,
+    marginRight: 3,
+    alignItems: 'center',
+    justifyContent: 'center',
+    backgroundColor: 'rgba(255,255,255,0.8)',
+    borderColor: 'transparent',
+    borderRadius: 3,
+  },
+  addressBarRow: {
+    flexDirection: 'row',
+    padding: 15,
+  },
+
+  navbar: {
+  alignItems: 'center',
+  backgroundColor: 'red',
+  borderBottomColor: '#eee',
+  borderColor: 'transparent',
+  borderWidth: 1,
+  justifyContent: 'center',
+  height: 44,
+  flexDirection: 'row'
+},
+navbarTitle: {
+  color: '#444',
+  fontSize: 16,
+  fontWeight: "500"
+},
+statusbar: {
+  backgroundColor: '#fff',
+  height: 22,
+},
 
 });

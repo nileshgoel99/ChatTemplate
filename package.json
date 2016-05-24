@@ -12,7 +12,7 @@
     "react-native-button": "*",
     "react-native-dropdown": "0.0.6",
     "react-native-gifted-messenger": "*",
-    "react-native-image-picker": "^0.18.15",
-    "react-native-gifted-spinner":"*"
+    "react-native-gifted-spinner": "*",
+    "react-native-image-picker": "^0.18.17"
   }
 }

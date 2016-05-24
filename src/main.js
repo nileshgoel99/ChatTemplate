@@ -8,11 +8,15 @@ var {
 
 } = React;
 
-const addKid = require('./components/addKid');
+const chat = require('./components/chat');
+const updateProfile = require('./components/updateProfile');
+const kidList = require('./components/kidsList');
 const styles = require('./components/styles');
 
 var ROUTES  =   {
-  addKid: addKid
+  chat: chat  ,
+  updateProfile : updateProfile,
+  kidList : kidList
 }
 module.exports = React.createClass({
 
@@ -24,7 +28,7 @@ module.exports = React.createClass({
     return(
         <Navigator
           style = {styles.container}
-          initialRoute = {{name: 'addKid'}}
+          initialRoute = {{name: 'updateProfile'}}
           renderScene={this.renderScene}
           configureScene={() => {return Navigator.SceneConfigs.FloatFromRight; }}
         />
